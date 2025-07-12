@@ -51,6 +51,10 @@ const Index = () => {
                 </div>
                 <div className="text-sm text-gray-600">24/7</div>
               </div>
+              <Button className="bg-red-600 hover:bg-red-700 animate-pulse">
+                <Icon name="Phone" className="mr-2" />
+                Аварийный комиссар
+              </Button>
               <Button className="bg-orange-500 hover:bg-orange-600">
                 Заказать звонок
               </Button>
@@ -63,10 +67,10 @@ const Index = () => {
       <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
         <div className="absolute inset-0 bg-black/20"></div>
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
           style={{
             backgroundImage:
-              "url(/img/aa977b9d-35f5-41f4-b709-6bb8abc294c7.jpg)",
+              "url(/img/ddfa4897-4a3a-4c71-bc11-1642207d0f02.jpg)",
           }}
         ></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
